@@ -18,14 +18,20 @@ This project implements a simple alarm system using Verilog HDL. The system trig
   - `1`: Window is open  
   - `0`: Window is closed
 
-## Output
-
-- **F**: Alarm  
-  - `1`: Alarm is triggered  
-  - `0`: Alarm is off
 
 ## Alarm Logic
 
 The alarm output `F` is determined by the following logic expression:
 
 F = (A & C) | B
+
+## Output
+
+- **F**: Alarm  
+  - `1`: Alarm is triggered  
+  - `0`: Alarm is off
+ 
+## Author
+
+Anikait Sarkar  
+RSA SEIP VLSI Trainee
